@@ -1,0 +1,129 @@
+/*
+ Theme Name:   Twenty Fifteen Child Theme
+ description: >-
+   A child theme of the Twenty Fifteen default WordPress theme
+ Author:       X Alternative
+ Template:     twentyfifteen
+ Version:      1.0.0
+*/
+caption {
+    font-size: smaller;
+    caption-side: bottom;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #EFEFEF;
+}
+th {
+  vertical-align: middle;
+  text-align: center;
+}
+.xalt-position-perso {
+    margin: 0 8.333333% 16px;
+    background-color: #FFF;
+    padding: 16px 8.3333% 16px 8.33333%;
+}
+
+.footnote {
+ vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
+}
+footer { 
+	visibility: hidden; 
+}
+
+.xalt-author-header {
+	margin: 32px 8.3333%;
+	background-color: #FFF;
+	padding: 16px;
+}
+
+.xalt-author-posts {
+   margin: 0 8.33333%;
+   list-style-type: none;
+   background-color: #FFF;
+   padding: 48px;
+}
+.xalt-author-posts > li {
+   background-color: #F8F8F8;
+   padding: 16px;
+   margin-bottom: 32px;
+} 
+.xalt-auth-image {
+   display: inline;
+   margin-left: 32px;
+   height: 96px;
+   vertical-align: middle;
+}
+
+.xalt-post-abstract > p {
+   margin-bottom: 16px;
+
+}
+.xalt-post-link {
+	font-size: larger;
+	font-weight: bold;
+}
+.xalt-post-date {
+   font-size: larger;
+   font-weight: bold;
+}
+.xalt-read-more {
+text-decoration: underline;
+}
+.xalt-post-abstract {
+    margin-top: 16px;
+}
+.xalt-author-header > p {
+	vertical-align: middle;
+	display: inline;
+	margin-left: 16px;
+}
+.page-header-author {
+	border-left: none!important;
+}
+
+aside.widget { 
+	margin-bottom: 23px!important ; 
+}
+
+header.site-header { 
+	margin-bottom: 60px!important; 
+}
+
+.site-title {
+	display: none;
+}
+
+.post-101 s, .post-101 em {
+	color : green;
+}
+
+.author:hover {
+	background-color: #003e5c;
+	color: white;
+	transition-property: background color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+.author {
+	box-sizing: initial;
+	cursor: pointer;
+    background-color: #EEEEEE;
+	display: block;
+	float: left;
+	width: 30%;
+	height: auto;
+	padding: 10px;
+	margin: 20px 10px 0 10px;
+	min-width: 250px;
+    border-bottom: none!important;
+}
+
+.author-name {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
