@@ -112,18 +112,23 @@ header.site-header {
 	box-sizing: initial;
 	cursor: pointer;
     background-color: #EEEEEE;
-	display: block;
-	float: left;
-	width: 30%;
+	width: 40%;
+	display: inline-block;
 	height: auto;
-	padding: 10px;
 	margin: 20px 10px 0 10px;
 	min-width: 250px;
     border-bottom: none!important;
+}
+
+.author > img {
+	width: 90%;
+	margin: 10px;
+	vertical-align: center;
 }
 
 .author-name {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	margin-left: 10px;
 }
