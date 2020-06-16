@@ -37,6 +37,12 @@ if ( ! empty( $wp_user_query->results ) ) {
 				echo "<a class=\"author\" href=\"https://x-alternative.org/author/" . $fn . "-" . $ln . "\">"; 
 				echo "<img src=\"https://x-alternative.org/" . $fn . "-" . $ln . ".png\" alt=\"" . $fN . " " . $lN . "\" title=\"" . $fN . " " . $lN . "\" />";
 				echo "<div class=\"author-name\">" . $fN . " " . $lN . "</div>";
+				echo "<div class=\"author-post-count\">". $postCount ;
+				if($postCount > 1)
+					echo " articles";
+				else
+					echo " article";
+				echo "</div>";
 				echo "</a>" ;
 			}
 		}

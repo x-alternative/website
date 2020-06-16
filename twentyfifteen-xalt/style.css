@@ -108,12 +108,31 @@ header.site-header {
 	transition-duration: 0.2s;
 	transition-timing-function: ease-in-out;
 }
+
+.author-post-count {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 26px;
+    opacity: 0;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.author:hover .author-post-count {
+	opacity: 0.75;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
 .author-page-title {
 	display: inline-block;
 	margin-left: 10px;
 }
 
 .author {
+	position: relative;
 	padding: 10px;
 	box-sizing: initial;
 	cursor: pointer;
