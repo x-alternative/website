@@ -109,6 +109,7 @@ header.site-header {
 	transition-timing-function: ease-in-out;
 }
 .author {
+	padding: 10px;
 	box-sizing: initial;
 	cursor: pointer;
     background-color: #EEEEEE;
@@ -120,15 +121,8 @@ header.site-header {
     border-bottom: none!important;
 }
 
-.author > img {
-	width: 90%;
-	margin: 10px;
-	vertical-align: center;
-}
-
 .author-name {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	overflow: hidden;
-	margin-left: 10px;
 }
