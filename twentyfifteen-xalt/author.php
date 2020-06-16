@@ -11,7 +11,7 @@
 			<section class="author-profile">
 				<header class="xalt-author-header">
 					<img class="xalt-auth-image" src="<?php echo get_avatar_url($authId); ?>" />
-					<p class="page-title"><?php printf("Tous les articles de %s %s", $authFirstName, $authLastName); ?></p>
+					<div class="page-title author-page-title"><?php printf("Tous les articles de %s %s", $authFirstName, $authLastName); ?></div>
 				</header><!-- .page-header -->
 
 				<div class="xalt-author-posts">
