@@ -18,14 +18,12 @@ Les propos tenus dans ces pages n'engagent que leurs auteurs respectifs et en au
 
 <?php
 $args  = array(
-		'who' => 'authors',
+		'capability' => array( 'edit_posts' ),
 		'orderby' => 'display_name'
 	      );
 
-$wp_user_query = new WP_User_Query($args);
 
-if ( ! empty( $wp_user_query->results ) ) {
-	foreach ( $wp_user_query->results as $author ) {
+	foreach ( get_users($args) as $author ) {
 		$id = $author->ID;
 		if ($id !== 1) {	
 			$postCount = count_user_posts($id);
@@ -47,7 +45,6 @@ if ( ! empty( $wp_user_query->results ) ) {
 			}
 		}
 	}
-}
 ?>
 </div>
 
